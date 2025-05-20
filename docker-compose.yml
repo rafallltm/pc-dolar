@@ -1,8 +1,0 @@
-services:
-  c-dolar:
-    build: .
-    container_name: c-dolar
-    env_file:
-      - .env
-    stdin_open: true
-    tty: true
